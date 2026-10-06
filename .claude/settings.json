@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "MessageSent": [
+      {
+        "type": "command",
+        "command": "claude --skill unslop"
+      }
+    ]
+  }
+}

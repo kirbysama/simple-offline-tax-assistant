@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.xlsx
+
+# Windows shortcuts embed the absolute path of the machine that created them
+# (e.g. D:\Documents\<project folder>\...) and break for everyone else.
+*.lnk
+
+# Personal tax position. Household-level financial figures do not belong in a
+# code repository; this file is kept outside the project and gitignored so it
+# cannot be re-added by accident.
+docs/tax/
+
+# Sample tax documents and bank exports are supplied per-machine and are never
+# committed. Real consolidated 1099 PDFs and activity statements stay
+# identifying even with the account holder's name, address and TIN redacted,
+# because the trade-level detail, income amounts and counterparty payment
+# handles are unchanged. See the "Sample Corpus" section of
+# .scratch/tax-tools/spec.md for the expected filenames and layout.
+Sample Form 1099/
+Sample 1099-INT/
+Sample Activity Statements/
+
+# Node dependencies. This project is pure Python + Streamlit with no JavaScript
+# build and no npm-managed runtime dependency, so node_modules is never needed
+# to run or test anything. Ignored so an exploratory `npm install` (e.g. for
+# jsdom) cannot be swept into a commit by `git add -A`.
+node_modules/
+package-lock.json

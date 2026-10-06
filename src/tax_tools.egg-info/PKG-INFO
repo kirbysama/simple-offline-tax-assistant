@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: tax-tools
+Version: 0.1.0
+Summary: Deterministic 1099 Aggregator & NY Sales Tax Calculator
+Requires-Python: >=3.10
+Requires-Dist: pypdf>=5.0.0
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: openpyxl>=3.1.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: streamlit>=1.30.0
+Provides-Extra: browser-tests
+Requires-Dist: pytest>=8.0.0; extra == "browser-tests"
+Requires-Dist: pytest-playwright>=0.9.0; extra == "browser-tests"
