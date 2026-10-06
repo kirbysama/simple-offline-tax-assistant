@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-Issues live in GitHub Issues (`gh` CLI for `kirbysama/gemini-tax-assistant`). See `docs/agents/issue-tracker.md`.
+Issues live in GitHub Issues (`gh` CLI for `kirbysama/simple-offline-tax-assistant`). See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
